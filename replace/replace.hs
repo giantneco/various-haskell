@@ -1,5 +1,7 @@
 #!/usr/bin/env runghc
 
+{-# OPTIONS_GHC -O -Wall #-}
+
 import System.IO (openTempFile, hClose, hPutStr)
 import System.Directory (renameFile)
 import System.Environment (getArgs)
